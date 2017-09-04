@@ -1,0 +1,263 @@
+*{
+    padding:0;
+    margin:0;
+    color: white;
+}
+html,body{
+    background: url(../blur-bg.jpg);
+    height: 100%;
+}
+    @media screen and (max-width:900px){
+        .RightOne,.RightThree,.PageTitle{
+            display: none;
+        }
+        .RightOne,.RightTwo,.RightThree,.RightFour{
+            background: url(../images/bgPart2.png);
+        }
+        .Right{
+            width: 100%;
+            position: relative;
+        }
+        .RightTwo{
+            background: none;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            background: #404E5B;
+        }
+        .RightTwo span{
+            color: white;
+        }
+        .sliderPart{
+            display: none;
+        }
+        .LittleTitle{
+            display: none;
+        }
+        div#canvas3d{
+            width: 100%;
+            height: 100%;
+            margin-left: 0px;
+        }
+        #ex1Slider .slider-selection {
+            background: none;
+        }
+        .CanvasTitle{
+            width: 100%;
+            margin-left: 0px;
+        }
+        .PhoneBtn{
+            display: block;
+        }
+        .slider.slider-horizontal{
+            width: 200px!important;
+        }
+        .sliderPart{
+            padding: 10px 0;
+            text-align: center;
+        }
+        .RightFour{
+            position: fixed;
+            left: 10px;
+            background: none;
+            bottom: 40px;
+        }
+        .RightFive{
+            position: fixed;
+            left: 35%;
+            background: none;
+            bottom: 40px;
+            
+        }
+        #message strong{
+            color: red;
+        }
+
+        .RightFour input{
+            display: block;
+        }
+    }
+    @media screen and (min-width:900px) and (max-width:1300px){
+        .sliderPart span{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .sliderSpan{
+            display: none;
+        }
+        .RightOne,.RightThree,.PageTitle{
+            display: block;
+        }
+        .Right{
+            width: 30%;
+            position: absolute;
+            right: 0;
+            top: 64px;
+        }
+        div#canvas3d{
+            width: 69%;
+            height: 678px;
+            margin-left: 20px;
+        }
+        .RightOne,.RightTwo,.RightThree,.RightFour,.RightFive{
+            margin: 10px 20px 15px;
+            background: url(../images/bgPart2.png);
+        }
+        #ex1Slider .slider-selection {
+            background: #BABABA;
+        }
+        .CanvasTitle{
+            width: 69%;
+            margin-left: 20px;
+        }
+        .PhoneBtn{
+            display: none;
+        }
+            .sliderPart{
+                padding-bottom: 20px;
+                text-align: center;
+            }
+    }
+    @media screen and (min-width:1300px){
+        .RightOne,.RightThree,.PageTitle{
+            display: block;
+        }
+        .Right{
+            width: 30%;
+            position: absolute;
+            right: 0;
+            top: 64px;
+        }
+        div#canvas3d{
+            width: 69%;
+            height: 650px;
+            margin-left: 20px;
+        }
+        .RightOne,.RightTwo,.RightThree,.RightFour,.RightFive{
+            margin: 10px 20px 15px;
+            background: url(../images/bgPart2.png);
+        }
+        #ex1Slider .slider-selection {
+            background: #BABABA;
+        }
+        .CanvasTitle{
+            width: 69%;
+            margin-left: 20px;
+        }
+        .sliderPart span{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .PhoneBtn{
+            display: none;
+        }
+        .sliderPart{
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+    }
+            .Sliderspan{
+            display: inline-block;
+            width: 29px;
+            }
+
+            div#canvas3d{
+                margin-top: -10px;
+                border: none;
+                cursor: move;
+                background-color: #EEEEEE;
+            }
+            .PageTitle{
+                text-align: center;
+                background: url(../images/bgPart1.png) repeat;
+            }
+            .PageTitle p{
+                padding: 10px 0;
+                font-size: 30px;
+            }
+            
+            .RightOne table{
+                text-align: center;
+                border: none;
+            }
+            .RightOne table td{
+                border: none!important;
+            }
+            #ex1SliderVal,#ex2SliderVal,#ex3SliderVal,#ex4SliderVal,#ex0SliderVal,#ex5SliderVal{
+                width: 50px;
+                color: #333;
+                text-align: center;
+            }
+            .LittleTitle{
+                background: none;
+                border-bottom: 1px solid rgba(0,0,0,.12);
+                box-shadow: 0 1px 0 0 rgba(255,255,255,.12);
+                -webkit-transform: translate3d(0,0,0);
+                transform: translate3d(0,0,0);
+                padding: 10px 0;
+                text-align: center;
+                color: white;
+                font-size: 16px;
+            }
+            .Inverse p{
+                text-align: center;
+            }
+            .Inverse input{
+                width: 70px;
+                color: #333;
+                text-align: center;
+            }
+            .InverseTitle{
+                font-weight: 600;
+            }
+            .InverseBtn{
+                width: 100px;
+                margin: 0 auto;
+                display: block;
+            }
+            .funBtn{
+                 width: 100px;
+                margin: 0 auto;
+                display: inline-block;
+            }
+            .Inverse{
+                padding-bottom: 10px;
+            }
+            
+            .CanvasTitle{
+                background: url(../images/bgPart2.png);
+                color: white;
+                text-align: center;
+                padding: 10px 0;
+                font-size: 16px;
+                border-bottom: 1px solid rgba(0,0,0,.12);
+                box-shadow: 0 1px 0 0 rgba(255,255,255,.12);
+                -webkit-transform: translate3d(0,0,0);
+                transform: translate3d(0,0,0);
+            }
+            .PhoneBtn{
+                position: fixed;
+                right: 20px;
+                top: 50%;
+            }
+            .PhoneBtn input{
+                display: block;
+                margin: 10px 0;
+            }
+            .RightFour{
+                text-align: center;
+            }
+            .RightFour input{
+                margin: 20px 0;
+            }
+            #message strong{
+                font-size: 20px;
+                font-family: "Microsoft Yahei";
+                 color: red;
+
+            }
+            #message {
+               text-align: center;
+               padding: 10px;
+            }
